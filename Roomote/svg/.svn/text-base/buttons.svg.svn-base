@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="buttons.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2884"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4336"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4336-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4419"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3022"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14111-5"
+       id="linearGradient4171"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(11.66224,-540.6432)"
+       x1="251"
+       y1="200.36218"
+       x2="263"
+       y2="277.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14111-5">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop14113-5" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop14115-4" />
+    </linearGradient>
+    <linearGradient
+       y2="277.36218"
+       x2="263"
+       y1="200.36218"
+       x1="251"
+       gradientTransform="matrix(0.50901377,0,0,0.96078354,-10.527845,613.98213)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3031"
+       xlink:href="#linearGradient14111-5"
+       inkscape:collect="always" />
+    <inkscape:perspective
+       id="perspective4496"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       y2="277.36218"
+       x2="263"
+       y1="200.36218"
+       x1="251"
+       gradientTransform="matrix(0.50901377,0,0,0.96078354,213.72602,633.17503)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3031-3"
+       xlink:href="#linearGradient14111-5-9"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14111-5-9">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop14113-5-0" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop14115-4-5" />
+    </linearGradient>
+    <linearGradient
+       y2="277.36218"
+       x2="263"
+       y1="200.36218"
+       x1="251"
+       gradientTransform="matrix(1.1990102,0,0,0.96078354,-243.75919,557.12275)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4505"
+       xlink:href="#linearGradient14111-5-9"
+       inkscape:collect="always" />
+    <inkscape:perspective
+       id="perspective4496-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       y2="277.36218"
+       x2="263"
+       y1="200.36218"
+       x1="251"
+       gradientTransform="matrix(0.50901377,0,0,0.96078354,213.72602,633.17503)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3031-7"
+       xlink:href="#linearGradient14111-5-3"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14111-5-3">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop14113-5-7" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop14115-4-9" />
+    </linearGradient>
+    <linearGradient
+       y2="277.36218"
+       x2="263"
+       y1="200.36218"
+       x1="251"
+       gradientTransform="matrix(0.37327676,0,0,0.96078354,-66.44536,651.06693)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4505-0"
+       xlink:href="#linearGradient14111-5-3"
+       inkscape:collect="always" />
+    <inkscape:perspective
+       id="perspective2855"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       y2="277.36218"
+       x2="263"
+       y1="200.36218"
+       x1="251"
+       gradientTransform="matrix(1.2159774,0,0,0.91151461,-271.43416,772.66367)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4505-7"
+       xlink:href="#linearGradient14111-5-9-9"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14111-5-9-9">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop14113-5-0-3" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop14115-4-5-8" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective2855-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       y2="277.36218"
+       x2="263"
+       y1="200.36218"
+       x1="251"
+       gradientTransform="matrix(0.90491344,0,0,0.91151263,-186.64042,715.08551)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4505-9"
+       xlink:href="#linearGradient14111-5-9-0"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14111-5-9-0">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop14113-5-0-5" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop14115-4-5-2" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="143.67507"
+     inkscape:cy="134.89904"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1483"
+     inkscape:window-height="926"
+     inkscape:window-x="973"
+     inkscape:window-y="327"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-752.36218)">
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3664"
+       width="125.51145"
+       height="101.77287"
+       x="321.09457"
+       y="866.32092"
+       rx="8"
+       ry="8" />
+    <g
+       id="g4393"
+       transform="translate(-96.84515,-17.180249)"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
+       inkscape:export-xdpi="87.269997"
+       inkscape:export-ydpi="87.269997">
+      <rect
+         inkscape:export-ydpi="87.269997"
+         inkscape:export-xdpi="87.269997"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
+         ry="8"
+         rx="8"
+         y="883.86218"
+         x="118"
+         height="37"
+         width="64"
+         id="rect2890"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         inkscape:export-ydpi="87.269997"
+         inkscape:export-xdpi="87.269997"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
+         ry="6"
+         rx="6"
+         y="886.86218"
+         x="121"
+         height="31"
+         width="58"
+         id="rect3666"
+         style="fill:#777777;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4407"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_208_38.png"
+       inkscape:export-xdpi="88.300003"
+       inkscape:export-ydpi="88.300003"
+       transform="translate(-34.109133,-57.578695)">
+      <rect
+         inkscape:export-ydpi="87.269997"
+         inkscape:export-xdpi="87.269997"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
+         ry="8"
+         rx="8"
+         y="830.31647"
+         x="69.52034"
+         height="37"
+         width="210"
+         id="rect2890-7"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         inkscape:export-ydpi="87.269997"
+         inkscape:export-xdpi="87.269997"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
+         ry="6"
+         rx="6"
+         y="833.31647"
+         x="72.52034"
+         height="31"
+         width="204"
+         id="rect3666-9"
+         style="fill:#777777;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4389"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_88_38.png"
+       inkscape:export-xdpi="88"
+       inkscape:export-ydpi="88"
+       transform="translate(59.751155,51.303572)">
+      <rect
+         inkscape:export-ydpi="87.692307"
+         inkscape:export-xdpi="87.692307"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_88_38.png"
+         ry="8"
+         rx="8"
+         y="778.29358"
+         x="48.812202"
+         height="37"
+         width="88"
+         id="rect2890-8"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         inkscape:export-ydpi="87.692307"
+         inkscape:export-xdpi="87.692307"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_88_38.png"
+         ry="6"
+         rx="6"
+         y="781.29358"
+         x="51.812202"
+         height="31"
+         width="82"
+         id="rect3666-0"
+         style="fill:#777777;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path14107-6"
+       d="m 115.70757,828.59715 c -4.51189,0 -8.14422,6.85615 -8.14422,15.37252 l 0,23.05882 c 33.56242,3.82458 31.14059,-12.29041 90,-28.91357 -1.21407,-5.60066 -4.12546,-9.51777 -7.53976,-9.51777 l -74.31602,0 z"
+       style="opacity:0.6;fill:url(#linearGradient3031);fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/Roomote/Images/shiny_blue_button.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path14107-6-2"
+       d="m 53.595371,771.73777 c -10.628008,0 -19.184163,6.85615 -19.184163,15.37252 l 0,23.05882 c 79.058132,3.82458 73.353382,-12.29041 211.999992,-28.91357 -2.85981,-5.60066 -9.71775,-9.51777 -17.76032,-9.51777 l -175.055509,0 z"
+       style="opacity:0.6;fill:url(#linearGradient4505);fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/Roomote/Images/shiny_blue_button.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path14107-6-23"
+       d="m 26.12728,865.68195 c -3.30872,0 -5.97243,6.85615 -5.97243,15.37252 l 0,23.05879 c 24.61244,3.8246 22.83643,-12.29036 66,-28.91354 -0.89032,-5.60066 -3.02534,-9.51777 -5.52916,-9.51777 l -54.49841,0 z"
+       style="opacity:0.6;fill:url(#linearGradient4505-0);fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/Roomote/Images/shiny_blue_button.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g2926">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_215_37.png"
+         transform="translate(-6.5659894,3.5151537)"
+         id="g2892">
+        <rect
+           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect2890-7-2"
+           width="213"
+           height="35"
+           x="18.238607"
+           y="973.75812"
+           rx="8"
+           ry="8"
+           inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
+           inkscape:export-xdpi="87.269997"
+           inkscape:export-ydpi="87.269997" />
+        <rect
+           style="fill:#777777;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect3666-9-4"
+           width="207"
+           height="29"
+           x="21.238607"
+           y="976.75812"
+           rx="6"
+           ry="6"
+           inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
+           inkscape:export-xdpi="87.269997"
+           inkscape:export-ydpi="87.269997" />
+      </g>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_215_37.png"
+         style="opacity:0.6;fill:url(#linearGradient4505-7);fill-opacity:1;stroke:none"
+         d="m 30.128261,976.27326 c -10.778407,0 -19.455645,6.50452 -19.455645,14.5842 l 0,21.87634 c 80.17689,3.6284 74.391412,-11.6602 215.000004,-27.4309 -2.90028,-5.31341 -9.85527,-9.02964 -18.01165,-9.02964 l -177.532709,0 z"
+         id="path14107-6-2-8"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+    <g
+       id="g2921"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_160_37.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="87.269997"
+         inkscape:export-xdpi="87.269997"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
+         ry="8"
+         rx="8"
+         y="919.69464"
+         x="24.299528"
+         height="35"
+         width="158"
+         id="rect2890-7-7"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         inkscape:export-ydpi="87.269997"
+         inkscape:export-xdpi="87.269997"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
+         ry="6"
+         rx="6"
+         y="922.69464"
+         x="27.299528"
+         height="29"
+         width="152"
+         id="rect3666-9-3"
+         style="fill:#777777;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/Roomote/Images/shiny_blue_button.png"
+         style="opacity:0.6;fill:url(#linearGradient4505-9);fill-opacity:1;stroke:none"
+         d="m 37.778141,918.69464 c -8.021139,0 -14.478615,6.50455 -14.478615,14.58418 l 0,21.87632 c 59.666521,3.62845 55.361048,-11.66013 160.000004,-27.43082 -2.15835,-5.31345 -7.33416,-9.02968 -13.40402,-9.02968 l -132.117369,0 z"
+         id="path14107-6-2-7"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+  </g>
+</svg>

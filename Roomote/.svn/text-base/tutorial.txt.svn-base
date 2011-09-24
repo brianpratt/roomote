@@ -1,0 +1,27 @@
+Roomote Settings View:
+===================
+- Step 1: Start the Roomote Server application on your computer.
+- Step 2: Press the "Start Server" button in the Roomote Server application to allow the iPhone app to connect.
+- Step 3: Press the "Connect" button in the Roomote Server application to connect to the Roomba (over a serial cable or Bluetooth).
+- Step 4: Push the server select button (labeled "Server:") and choose the Roomote Server from the list.
+- Step 5: Choose your control type: Button, Swipe, or Tilt.
+- Step 6: (Optional) Press the Demo button and select the demo you want the Roomba to run.
+- Step 7: (Optional) Press the Song button and select the song you want the Roomba to sing.
+- Step 8: Press the "Done" button to flip back to the control view.
+
+
+Roomote Control View:
+==================
+From the control view you can send commands to your Roomba. The upper control interface changes based on the control type selected on the Settings View. The lower control interface includes a scrolling area with many commands as well as a velocity control slider. Press the "i" button to flip over to the Settings View.
+
+Button Control:
+  This control type lets you send commands to the Roomba with a simple button interface. Press the buttons to make the Roomba go forward, backward, turn, or spin. Press the "Stop" button to command the Roomba to stop moving.
+
+Swipe Control:
+  This control type lets you control the Roomba with swipe gestures. Swipe up to make the Roomba go forward and down to make the Roomba go backward. Swipe up and to the right to make the Roomba go forward while turning to the right. The length of your swipe to the right determines the angle at which the Roomba will turn. Swipe further to make a tighter turn. Swiping directly right or left will command the Roomba to spin in place.
+
+Tilt Control:
+  This control type uses the iPhone's accelerometer to control the Roomba. Tilt your iPhone forward to command the Roomba to go forward and backward to command the Roomba to go backward. Hold your iPhone level with the ground to command the Roomba to stop. The more you tilt forward or backward, the faster the Roomba will go. Similarly, the more you tilt to the right or left, the tighter a turn the Roomba will make. Use the velocity slider at the bottom of the screen to set the maximum velocity the Roomba will go in this control mode. Press the Stop button in the top left corner to stop sending tilt commands to the Roomba. Press the Go button to resume sending commands.
+
+
+The most up to date tutorial will be available at http://www.brianhpratt.net/Roomote/

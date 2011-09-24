@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<head>
+  <title>Roomote Tutorial</title>
+  <style type="text/css">
+    body {
+    background: #ffffff;
+    font-family: helvetica, arial;
+    font-size: 11pt;
+    }
+    .bigger {
+    font-weight: bold;
+    font-size: 14pt;
+    }
+  </style>
+</head>
+<body>
+	<p>Roomote is an app that lets you control your Roomba (or Create) robot with your iPhone or iPod touch. The iPhone can't communication with the Roomba directly, but with proper hardware and the Roomote Server app running on your Mac, you can control the Roomba indirectly.</p>
+	<p>For more information on setting up the Roomote Server, visit <a href="http://www.brianhpratt.net/Roomote/">http://www.brianhpratt.net/Roomote/</a></p>
+	<p>To use the Roomote iPhone App, you need the following:&nbsp;</p>
+	<ol>
+		<li>A Roomba 400 or 500 series robot (or Create)</li>
+		<li>An iPhone or iPod touch (any version)</li>
+		<li>A serial cable or bluetooth adapter to connect your robot to your computer</li>
+		<li>A Mac computer to run a server program and relay commands from the iPhone to the robot&nbsp;(Sorry Windows folks, I haven't ported the server to Windows. If you'd like to do so, though, I've made the source code available. Scroll to the bottom of this page for more information.)</li>
+	</ol>
+	<p>Here are some of the things you can do with the Roomote app:</p>
+	<h3>Roomote Settings View</h3>
+	<ul>
+		<li>Step 1: Start the Roomote Server application on your computer.</li>
+		<li>Step 2: Press the &quot;Start Server&quot; button in the Roomote Server application to allow the iPhone app to connect.</li>
+		<li>Step 3: Press the &quot;Connect&quot; button in the Roomote Server application to connect to the Roomba (over a serial cable or Bluetooth).</li>
+		<li>Step 4: Push the server select button (labeled &quot;Server:&quot;) and choose the Roomote Server from the list.</li>
+		<li>Step 5: Choose your control type: Button, Swipe, or Tilt.</li>
+		<li>Step 6: (Optional) Press the Demo button and select the demo you want the Roomba to run.</li>
+		<li>Step 7: (Optional) Press the Song button and select the song you want the Roomba to sing.</li>
+		<li>Step 8: Press the &quot;Done&quot; button to flip back to the control view.</li>
+	</ul>
+	<h3>Roomote Control View</h3>
+	<p>From the control view you can send commands to your Roomba. The upper control interface changes based on the control type selected on the Settings View. The lower control interface includes a scrolling area with many commands as well as a velocity control slider. Press the &quot;i&quot; button to flip over to the Settings View.</p>
+	<ul>
+		<li>Button Mode
+			<ul>
+				<li>This control type lets you send commands to the Roomba with a simple button interface</li>
+				<li>Tap a button to send a command to the robot
+					<ul>
+						<li>Press the buttons to make the Roomba go forward, backward, turn, or spin. Press the &quot;Stop&quot; button to command the Roomba to stop moving.</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>Swipe Mode
+			<ul>
+				<li>This control type lets you control the Roomba with swipe gestures</li>
+				<li>Tap in the center to send a &quot;stop&quot; command</li>
+				<li>Swipe up to make the Roomba go forward and down to make the Roomba go backward</li>
+				<li>Swipe up and to the right to make the Roomba go forward while turning to the right
+					<ul>
+						<li>The length of your swipe to the right determines the angle at which the Roomba will turn</li>
+						<li>Swipe further to make a tighter turn</li>
+					</ul>
+				</li>
+				<li>Swiping directly right or left will command the Roomba to spin in place.</li>
+			</ul>
+		</li>
+		<li>&quot;Tilt&quot; Mode (accelerometer mode)
+			<ul>
+				<li>This control type uses the iPhone's accelerometer to control the Roomba</li>
+				<li>Hold the phone level to the ground (face up)&nbsp; to stop the robot</li>
+				<li>Tilt your iPhone forward to command the Roomba to go forward and backward to command the Roomba to go backward</li>
+				<li>The more you tilt forward or backward, the faster the Roomba will go</li>
+				<li>Similarly, the more you tilt to the right or left, the tighter a turn the Roomba will make
+					<ul>
+						<li>Use the velocity slider at the bottom of the screen to set the maximum velocity the Roomba will go in this control mode</li>
+					</ul>
+				</li>
+				<li>Press the Stop button in the top left corner to stop sending tilt commands to the Roomba
+					<ul>
+						<li>Press the Go button to resume sending commands.</li>
+					</ul>
+				</li>
+				<li>Tilt the phone to the left to make it spin left</li>
+				<li>etc.</li>
+			</ul>
+		</li>
+		<li>Other commands
+			<ul>
+				<li>There are also other commands available to send to the Roomba that make the Roomba beep, turn on/off its lights, turn on/off its vaccuum, etc.</li>
+				<li>These commands are available in the middle of the control view screen</li>
+				<li>NOTE: The standard Roomba commands <em>Clean</em>, <em>Spot Clean</em>, <em>Max Clean</em>, and <em>Dock</em> all break the connection between the Roomote Server and the Roomba
+					<ul>
+						<li>To restore the connection, press the red <em>Reconnect</em> button on the Roomote iPhone app or reconnect using the Roomote Server app on your computer</li>
+					</ul>
+				</li>
+				<li>You can also program custom commands
+					<ul>
+						<li>Press the <em>Edit</em> button next to a custom command button</li>
+						<li>Enter a name for the command</li>
+						<li>Enter the raw SCI/OI command to send to the Roomba
+							<ul>
+								<li>This will send the bytes you specify directly to the Roomba. I take no responsibility for any damage you may do to your Roomba!</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<p>The latest version of this tutorial can be found at <a href="http://www.brianhpratt.net/Roomote/">http://www.brianhpratt.net/Roomote/</a></p>
+	<h3>Roomote Server Source Code</h3>
+	<p>The Roomote Server source code is available under the GNU General Public License. You can download the code from <a href="http://www.brianhpratt.net/Roomote/">http://www.brianhpratt.net/Roomote/</a> You are free to make modifications and redistribute the software under the terms of the GPL.</p>
+	<p>I especially encourage anyone to make a Windows version of this software. I'm sure that a totally Java version of the Roomote Server could be done that would be cross-platform. I initially created this project just to experiment with coding on the Mac OS X platform and don't have enough time or interest to rewrite the project for other platforms. I would be happy to help someone else's efforts, though. Feel free to contact me at <a href="mailto:roomote@brianhpratt.net">roomote@brianhpratt.net</a>. I will happy link to your Windows/Linux port from this page as well.</p> <br />
+</body>
+</html>

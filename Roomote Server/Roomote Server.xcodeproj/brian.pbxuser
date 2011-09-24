@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = D3B12287112739D800C1DECF /* Roomote Server */;
+		activeTarget = 8D1107260486CEB800E47090 /* Roomote Server */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Roomote Server */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = D3B1229C112739E600C1DECF /* Code sense */;
+		executables = (
+			D3B12287112739D800C1DECF /* Roomote Server */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					929,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1041,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					611,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 291089341;
+			PBXWorkspaceStateSaveDate = 291089341;
+		};
+		perUserProjectItems = {
+			D344E8991159ABD5001DFF5B /* PlistBookmark */ = D344E8991159ABD5001DFF5B /* PlistBookmark */;
+			D344E89A1159ABD5001DFF5B /* PBXTextBookmark */ = D344E89A1159ABD5001DFF5B /* PBXTextBookmark */;
+			D344E89B1159ABD5001DFF5B /* PBXTextBookmark */ = D344E89B1159ABD5001DFF5B /* PBXTextBookmark */;
+			D344E8A01159AD26001DFF5B /* PBXTextBookmark */ = D344E8A01159AD26001DFF5B /* PBXTextBookmark */;
+			D344E8A11159AD26001DFF5B /* PBXTextBookmark */ = D344E8A11159AD26001DFF5B /* PBXTextBookmark */;
+			D344E8A21159AD26001DFF5B /* PBXTextBookmark */ = D344E8A21159AD26001DFF5B /* PBXTextBookmark */;
+			D344E8AC1159ADE7001DFF5B /* PBXTextBookmark */ = D344E8AC1159ADE7001DFF5B /* PBXTextBookmark */;
+			D344E8AD1159ADE7001DFF5B /* PBXTextBookmark */ = D344E8AD1159ADE7001DFF5B /* PBXTextBookmark */;
+			D344E8AE1159ADE7001DFF5B /* PBXTextBookmark */ = D344E8AE1159ADE7001DFF5B /* PBXTextBookmark */;
+			D344E8C01159AF7A001DFF5B /* PBXTextBookmark */ = D344E8C01159AF7A001DFF5B /* PBXTextBookmark */;
+			D344E8C11159AF7A001DFF5B /* PBXTextBookmark */ = D344E8C11159AF7A001DFF5B /* PBXTextBookmark */;
+			D344E8CA1159AF9E001DFF5B /* PBXTextBookmark */ = D344E8CA1159AF9E001DFF5B /* PBXTextBookmark */;
+			D344E8CC1159AFA8001DFF5B /* PBXTextBookmark */ = D344E8CC1159AFA8001DFF5B /* PBXTextBookmark */;
+			D344E8F41159B8E7001DFF5B /* PBXTextBookmark */ = D344E8F41159B8E7001DFF5B /* PBXTextBookmark */;
+			D344E8F51159B8E7001DFF5B /* PBXTextBookmark */ = D344E8F51159B8E7001DFF5B /* PBXTextBookmark */;
+			D344E8F61159B8E7001DFF5B /* PBXTextBookmark */ = D344E8F61159B8E7001DFF5B /* PBXTextBookmark */;
+			D344E8FC1159B908001DFF5B /* PlistBookmark */ = D344E8FC1159B908001DFF5B /* PlistBookmark */;
+			D344E8FD1159B908001DFF5B /* PBXTextBookmark */ = D344E8FD1159B908001DFF5B /* PBXTextBookmark */;
+			D344E8FE1159B908001DFF5B /* PBXTextBookmark */ = D344E8FE1159B908001DFF5B /* PBXTextBookmark */;
+			D344E8FF1159B908001DFF5B /* PBXTextBookmark */ = D344E8FF1159B908001DFF5B /* PBXTextBookmark */;
+			D344E90E1159B9D8001DFF5B /* PBXTextBookmark */ = D344E90E1159B9D8001DFF5B /* PBXTextBookmark */;
+			D344E90F1159B9D8001DFF5B /* PBXBookmark */ = D344E90F1159B9D8001DFF5B /* PBXBookmark */;
+			D344E9101159B9D8001DFF5B /* PBXTextBookmark */ = D344E9101159B9D8001DFF5B /* PBXTextBookmark */;
+			D344E9141159B9DC001DFF5B /* PBXTextBookmark */ = D344E9141159B9DC001DFF5B /* PBXTextBookmark */;
+			D344E9151159B9DC001DFF5B /* PBXTextBookmark */ = D344E9151159B9DC001DFF5B /* PBXTextBookmark */;
+			D344E9161159B9DC001DFF5B /* PBXTextBookmark */ = D344E9161159B9DC001DFF5B /* PBXTextBookmark */;
+			D3522A661151055400D575D6 = D3522A661151055400D575D6 /* PBXBookmark */;
+			D3522A77115105E900D575D6 = D3522A77115105E900D575D6 /* XDModelBookmark */;
+			D3522A801151064800D575D6 = D3522A801151064800D575D6 /* PBXTextBookmark */;
+			D3522A901151094600D575D6 = D3522A901151094600D575D6 /* PBXTextBookmark */;
+			D3522AA5115109EF00D575D6 = D3522AA5115109EF00D575D6 /* PBXTextBookmark */;
+			D3522AA7115109EF00D575D6 = D3522AA7115109EF00D575D6 /* PBXTextBookmark */;
+			D3522AA8115109EF00D575D6 = D3522AA8115109EF00D575D6 /* PBXTextBookmark */;
+			D3522AA9115109EF00D575D6 = D3522AA9115109EF00D575D6 /* PBXTextBookmark */;
+			D3522AAA115109EF00D575D6 = D3522AAA115109EF00D575D6 /* PBXTextBookmark */;
+			D3522AAB115109EF00D575D6 = D3522AAB115109EF00D575D6 /* PBXTextBookmark */;
+			D3522AAC115109EF00D575D6 = D3522AAC115109EF00D575D6 /* PBXTextBookmark */;
+			D3522AAD115109EF00D575D6 = D3522AAD115109EF00D575D6 /* PBXTextBookmark */;
+			D3522AAF115109EF00D575D6 = D3522AAF115109EF00D575D6 /* PBXTextBookmark */;
+			D3522B30115140A500D575D6 = D3522B30115140A500D575D6 /* PBXTextBookmark */;
+			D3F3D68D1159A87100748EF2 = D3F3D68D1159A87100748EF2 /* PBXTextBookmark */;
+			D3F3D68E1159A87100748EF2 = D3F3D68E1159A87100748EF2 /* PBXTextBookmark */;
+			D3F3D68F1159A87100748EF2 = D3F3D68F1159A87100748EF2 /* PlistBookmark */;
+			D3F3D6901159A87100748EF2 = D3F3D6901159A87100748EF2 /* PlistBookmark */;
+		};
+		sourceControlManager = D3B1229B112739E600C1DECF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 858}}";
+			sepNavSelRange = "{95, 4}";
+			sepNavVisRange = "{0, 247}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Roomote Server_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 858}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 187}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Roomote Server */ = {
+		activeExec = 0;
+		executables = (
+			D3B12287112739D800C1DECF /* Roomote Server */,
+		);
+	};
+	D304880F0F348F2C0072B1EC /* networking.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1768}}";
+			sepNavSelRange = "{704, 1}";
+			sepNavVisRange = "{0, 3078}";
+			sepNavWindowFrame = "{{15, 135}, {985, 1278}}";
+		};
+	};
+	D319F0B00F28A99C0067E409 /* roombalib.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 6422}}";
+			sepNavSelRange = "{186, 0}";
+			sepNavVisRange = "{0, 1740}";
+			sepNavWindowFrame = "{{1038, 140}, {985, 1278}}";
+		};
+	};
+	D319F0B10F28A99C0067E409 /* roombalib.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3705}}";
+			sepNavSelRange = "{187, 69}";
+			sepNavVisRange = "{0, 1749}";
+		};
+	};
+	D33980E91147CD4C002E06C4 /* Songs.xcdatamodel */ = {
+		uiCtxt = {
+			"Xdesign Model Editor Bookmark Key" = {
+				UIContextForDetailArea = {
+					_indexOfSelectedPane = 0;
+					_indexOfSelectedView = 0;
+				};
+				UIContextForEntityArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnns = (
+						"ET Entity",
+						"ET Abstract",
+						"ET Class",
+					);
+					chosenTableColumnns_sortDirections = (
+						YES,
+					);
+					chosenTableColumnns_sortKeys = (
+						name,
+					);
+					chosenTableColumnns_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidths = (
+						103.000000,
+						22.000000,
+						125.080078,
+					);
+				};
+				UIContextForLayoutManager = {
+					detailSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {835, 218}}",
+							"{{840, 0}, {438, 218}}",
+						);
+					};
+					diagramSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {1278, 220}}",
+							"{{0, 225}, {1278, 648}}",
+						);
+					};
+					tableSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {275, 218}}",
+							"{{280, 0}, {553, 218}}",
+						);
+					};
+				};
+				UIContextForPropertyArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnnFRTs = (
+						"FT Fetch Request",
+						"FT Predicate",
+					);
+					chosenTableColumnnFRTs_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnFRTs_sortKeys = (
+						name,
+					);
+					chosenTableColumnnFRTs_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsAT = (
+						"AT Attribute",
+						"AT Type",
+					);
+					chosenTableColumnnsAT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsAT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsAT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsFPT = (
+						"FP FetchedProperty",
+						"FP Destination",
+						"FP Predicate",
+					);
+					chosenTableColumnnsFPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsFPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsFPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsPT = (
+						"PT Property",
+						"PT Kind",
+						"PT SharedKeyOne",
+					);
+					chosenTableColumnnsPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsRT = (
+						"RT Relationship",
+						"RT Destination",
+					);
+					chosenTableColumnnsRT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsRT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsRT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidthsAT = (
+						128.000000,
+						64.000000,
+					);
+					chosenTableWidthsFPT = (
+						128.000000,
+						64.000000,
+						144.764160,
+					);
+					chosenTableWidthsFRT = (
+						128.000000,
+						249.764160,
+					);
+					chosenTableWidthsPT = (
+						128.000000,
+						108.110840,
+						290.570801,
+					);
+					chosenTableWidthsRT = (
+						128.000000,
+						64.000000,
+					);
+				};
+				"xdesign model browser state key - shown/hidden" = 1;
+				"xdesign model diagram view visible rect key" = "{{-308, -101}, {1263, 633}}";
+			};
+		};
+	};
+	D344E8991159ABD5001DFF5B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D3B121FC1127366000C1DECF /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote Server/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D344E89A1159ABD5001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 13";
+		rLen = 0;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 2330;
+		vrLoc = 0;
+	};
+	D344E89B1159ABD5001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EB1127361900C1DECF /* RoomoteServer.h */;
+		name = "RoomoteServer.h: 52";
+		rLen = 0;
+		rLoc = 1959;
+		rType = 0;
+		vrLen = 2512;
+		vrLoc = 415;
+	};
+	D344E8A01159AD26001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EB1127361900C1DECF /* RoomoteServer.h */;
+		name = "RoomoteServer.h: 28";
+		rLen = 0;
+		rLoc = 1255;
+		rType = 0;
+		vrLen = 2469;
+		vrLoc = 978;
+	};
+	D344E8A11159AD26001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 189";
+		rLen = 0;
+		rLoc = 5609;
+		rType = 0;
+		vrLen = 1867;
+		vrLoc = 4125;
+	};
+	D344E8A21159AD26001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 189";
+		rLen = 0;
+		rLoc = 5609;
+		rType = 0;
+		vrLen = 1867;
+		vrLoc = 4125;
+	};
+	D344E8AC1159ADE7001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EB1127361900C1DECF /* RoomoteServer.h */;
+		name = "RoomoteServer.h: 28";
+		rLen = 0;
+		rLoc = 1255;
+		rType = 0;
+		vrLen = 2469;
+		vrLoc = 978;
+	};
+	D344E8AD1159ADE7001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 189";
+		rLen = 0;
+		rLoc = 5577;
+		rType = 0;
+		vrLen = 1869;
+		vrLoc = 4125;
+	};
+	D344E8AE1159ADE7001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 190";
+		rLen = 0;
+		rLoc = 5489;
+		rType = 0;
+		vrLen = 2019;
+		vrLoc = 4125;
+	};
+	D344E8C01159AF7A001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 190";
+		rLen = 0;
+		rLoc = 5489;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 4125;
+	};
+	D344E8C11159AF7A001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 190";
+		rLen = 0;
+		rLoc = 5489;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 4125;
+	};
+	D344E8CA1159AF9E001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 190";
+		rLen = 0;
+		rLoc = 5489;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 4125;
+	};
+	D344E8CC1159AFA8001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 190";
+		rLen = 0;
+		rLoc = 5489;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 4125;
+	};
+	D344E8F41159B8E7001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 166";
+		rLen = 0;
+		rLoc = 4636;
+		rType = 0;
+		vrLen = 1869;
+		vrLoc = 1033;
+	};
+	D344E8F51159B8E7001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EA1127361900C1DECF /* RoombaAux.m */;
+		name = "RoombaAux.m: 83";
+		rLen = 0;
+		rLoc = 3764;
+		rType = 0;
+		vrLen = 2879;
+		vrLoc = 1479;
+	};
+	D344E8F61159B8E7001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EA1127361900C1DECF /* RoombaAux.m */;
+		name = "RoombaAux.m: 83";
+		rLen = 0;
+		rLoc = 3764;
+		rType = 0;
+		vrLen = 2879;
+		vrLoc = 1479;
+	};
+	D344E8F81159B8F0001DFF5B /* help.rtfd */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1233, 1050}}";
+			sepNavSelRange = "{3786, 0}";
+			sepNavVisRect = "{{0, 0}, {1233, 863}}";
+		};
+	};
+	D344E8FC1159B908001DFF5B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D3B121FC1127366000C1DECF /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote Server/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D344E8FD1159B908001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D344E8F81159B8F0001DFF5B /* help.rtfd */;
+		name = "help.rtfd: 6";
+		rLen = 0;
+		rLoc = 51;
+		rType = 0;
+		vrLen = 3100;
+		vrLoc = 0;
+	};
+	D344E8FE1159B908001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EA1127361900C1DECF /* RoombaAux.m */;
+		name = "RoombaAux.m: 83";
+		rLen = 0;
+		rLoc = 3764;
+		rType = 0;
+		vrLen = 2879;
+		vrLoc = 1479;
+	};
+	D344E8FF1159B908001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 190";
+		rLen = 0;
+		rLoc = 5553;
+		rType = 0;
+		vrLen = 1883;
+		vrLoc = 4064;
+	};
+	D344E90E1159B9D8001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D344E8F81159B8F0001DFF5B /* help.rtfd */;
+		name = "help.rtfd: 55";
+		rLen = 0;
+		rLoc = 3786;
+		rType = 0;
+		vrLen = 1919;
+		vrLoc = 0;
+	};
+	D344E90F1159B9D8001DFF5B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D3B121EA1127361900C1DECF /* RoombaAux.m */;
+	};
+	D344E9101159B9D8001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EA1127361900C1DECF /* RoombaAux.m */;
+		name = "RoombaAux.m: 83";
+		rLen = 0;
+		rLoc = 3764;
+		rType = 0;
+		vrLen = 1275;
+		vrLoc = 2872;
+	};
+	D344E9141159B9DC001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 162";
+		rLen = 0;
+		rLoc = 4589;
+		rType = 0;
+		vrLen = 2330;
+		vrLoc = 0;
+	};
+	D344E9151159B9DC001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D344E8F81159B8F0001DFF5B /* help.rtfd */;
+		name = "help.rtfd: 7";
+		rLen = 0;
+		rLoc = 51;
+		rType = 0;
+		vrLen = 3396;
+		vrLoc = 0;
+	};
+	D344E9161159B9DC001DFF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D344E8F81159B8F0001DFF5B /* help.rtfd */;
+		name = "help.rtfd: 55";
+		rLen = 0;
+		rLoc = 3786;
+		rType = 0;
+		vrLen = 3396;
+		vrLoc = 0;
+	};
+	D3522A661151055400D575D6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D3B121FB1127366000C1DECF /* RoomoteServer.icns */;
+	};
+	D3522A77115105E900D575D6 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = D33980E91147CD4C002E06C4 /* Songs.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	D3522A801151064800D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EE1127361900C1DECF /* TCPServer.m */;
+		name = "TCPServer.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2853;
+		vrLoc = 0;
+	};
+	D3522A901151094600D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D357CD77114C641E0075E24E /* RTTTLSong.m */;
+		name = "RTTTLSong.m: 4";
+		rLen = 833;
+		rLoc = 41;
+		rType = 0;
+		vrLen = 967;
+		vrLoc = 0;
+	};
+	D3522AA5115109EF00D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121E91127361900C1DECF /* RoombaAux.h */;
+		name = "RoombaAux.h: 12";
+		rLen = 9;
+		rLoc = 425;
+		rType = 0;
+		vrLen = 1841;
+		vrLoc = 0;
+	};
+	D3522AA7115109EF00D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EB1127361900C1DECF /* RoomoteServer.h */;
+		name = "RoomoteServer.h: 13";
+		rLen = 0;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 2261;
+		vrLoc = 0;
+	};
+	D3522AA8115109EF00D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */;
+		name = "RoomoteServer.m: 13";
+		rLen = 0;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 2330;
+		vrLoc = 0;
+	};
+	D3522AA9115109EF00D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121ED1127361900C1DECF /* TCPServer.h */;
+		name = "TCPServer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2765;
+		vrLoc = 0;
+	};
+	D3522AAA115109EF00D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Roomote Server_Prefix.pch */;
+		name = "Roomote Server_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 187;
+		vrLoc = 0;
+	};
+	D3522AAB115109EF00D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 6";
+		rLen = 4;
+		rLoc = 95;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	D3522AAC115109EF00D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D319F0B10F28A99C0067E409 /* roombalib.h */;
+		name = "roombalib.h: 10";
+		rLen = 69;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 1749;
+		vrLoc = 0;
+	};
+	D3522AAD115109EF00D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D319F0B00F28A99C0067E409 /* roombalib.c */;
+		name = "roombalib.c: 10";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 1740;
+		vrLoc = 0;
+	};
+	D3522AAF115109EF00D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D357CD76114C641E0075E24E /* RTTTLSong.h */;
+		name = "RTTTLSong.h: 6";
+		rLen = 4;
+		rLoc = 88;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	D3522B30115140A500D575D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D304880F0F348F2C0072B1EC /* networking.h */;
+		name = "networking.h: 14";
+		rLen = 1;
+		rLoc = 704;
+		rType = 0;
+		vrLen = 3078;
+		vrLoc = 0;
+	};
+	D357CD76114C641E0075E24E /* RTTTLSong.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 858}}";
+			sepNavSelRange = "{88, 4}";
+			sepNavVisRange = "{0, 1060}";
+		};
+	};
+	D357CD77114C641E0075E24E /* RTTTLSong.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 858}}";
+			sepNavSelRange = "{41, 833}";
+			sepNavVisRange = "{0, 967}";
+		};
+	};
+	D3B121E91127361900C1DECF /* RoombaAux.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1417}}";
+			sepNavSelRange = "{425, 9}";
+			sepNavVisRange = "{0, 1841}";
+		};
+	};
+	D3B121EA1127361900C1DECF /* RoombaAux.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3274, 8671}}";
+			sepNavSelRange = "{3764, 0}";
+			sepNavVisRange = "{2872, 1275}";
+			sepNavWindowFrame = "{{826, 140}, {985, 1278}}";
+		};
+	};
+	D3B121EB1127361900C1DECF /* RoomoteServer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1183}}";
+			sepNavSelRange = "{1255, 0}";
+			sepNavVisRange = "{978, 2469}";
+		};
+	};
+	D3B121EC1127361900C1DECF /* RoomoteServer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 15340}}";
+			sepNavSelRange = "{4589, 0}";
+			sepNavVisRange = "{0, 2330}";
+			sepNavWindowFrame = "{{1247, 140}, {985, 1278}}";
+		};
+	};
+	D3B121ED1127361900C1DECF /* TCPServer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1170}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2765}";
+		};
+	};
+	D3B121EE1127361900C1DECF /* TCPServer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3172}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2853}";
+		};
+	};
+	D3B122071127370D00C1DECF /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1223, 830}}";
+			sepNavSelRange = "{536, 0}";
+			sepNavVisRange = "{0, 536}";
+			sepNavWindowFrame = "{{15, 135}, {985, 1278}}";
+		};
+	};
+	D3B12287112739D800C1DECF /* Roomote Server */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Roomote Server";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	D3B1229B112739E600C1DECF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = Roomote;
+			};
+		};
+	};
+	D3B1229C112739E600C1DECF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D3F3D68D1159A87100748EF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B121EA1127361900C1DECF /* RoombaAux.m */;
+		name = "RoombaAux.m: 65";
+		rLen = 0;
+		rLoc = 3295;
+		rType = 0;
+		vrLen = 2901;
+		vrLoc = 1479;
+	};
+	D3F3D68E1159A87100748EF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3B122071127370D00C1DECF /* English */;
+		name = "InfoPlist.strings: 7";
+		rLen = 0;
+		rLoc = 536;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 0;
+	};
+	D3F3D68F1159A87100748EF2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D3B121FC1127366000C1DECF /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote Server/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	D3F3D6901159A87100748EF2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D3B121FC1127366000C1DECF /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote Server/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+}

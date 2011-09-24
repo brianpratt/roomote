@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D319F0B20F28A99C0067E409 /* roombalib.c in Sources */ = {isa = PBXBuildFile; fileRef = D319F0B00F28A99C0067E409 /* roombalib.c */; };
+		D33980EA1147CD4C002E06C4 /* Songs.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = D33980E91147CD4C002E06C4 /* Songs.xcdatamodel */; };
+		D33980EE1147CF46002E06C4 /* Songs.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33980ED1147CF46002E06C4 /* Songs.xib */; };
+		D344E8F91159B8F0001DFF5B /* help.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = D344E8F81159B8F0001DFF5B /* help.rtfd */; };
+		D357CD78114C641E0075E24E /* RTTTLSong.m in Sources */ = {isa = PBXBuildFile; fileRef = D357CD77114C641E0075E24E /* RTTTLSong.m */; };
+		D3B121EF1127361900C1DECF /* RoombaAux.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B121EA1127361900C1DECF /* RoombaAux.m */; };
+		D3B121F01127361900C1DECF /* RoomoteServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B121EC1127361900C1DECF /* RoomoteServer.m */; };
+		D3B121F11127361900C1DECF /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B121EE1127361900C1DECF /* TCPServer.m */; };
+		D3B121F61127363900C1DECF /* librxtxSerial.jnilib in Resources */ = {isa = PBXBuildFile; fileRef = D3B121F31127363900C1DECF /* librxtxSerial.jnilib */; };
+		D3B121FD1127366000C1DECF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D3B121F91127366000C1DECF /* Credits.rtf */; };
+		D3B121FE1127366000C1DECF /* icon64.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B121FA1127366000C1DECF /* icon64.png */; };
+		D3B121FF1127366000C1DECF /* RoomoteServer.icns in Resources */ = {isa = PBXBuildFile; fileRef = D3B121FB1127366000C1DECF /* RoomoteServer.icns */; };
+		D3B1220A1127370D00C1DECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3B122061127370D00C1DECF /* InfoPlist.strings */; };
+		D3B1220B1127370D00C1DECF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B122081127370D00C1DECF /* MainMenu.xib */; };
+		D3B122141127374E00C1DECF /* roombacomm.jar in Resources */ = {isa = PBXBuildFile; fileRef = D3B121F41127363900C1DECF /* roombacomm.jar */; };
+		D3B122151127374E00C1DECF /* RXTXcomm.jar in Resources */ = {isa = PBXBuildFile; fileRef = D3B121F51127363900C1DECF /* RXTXcomm.jar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Roomote Server_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Roomote Server_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Roomote Server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roomote Server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D304880F0F348F2C0072B1EC /* networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = networking.h; sourceTree = "<group>"; };
+		D319F0B00F28A99C0067E409 /* roombalib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = roombalib.c; sourceTree = "<group>"; };
+		D319F0B10F28A99C0067E409 /* roombalib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roombalib.h; sourceTree = "<group>"; };
+		D33980E91147CD4C002E06C4 /* Songs.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Songs.xcdatamodel; sourceTree = "<group>"; };
+		D33980ED1147CF46002E06C4 /* Songs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Songs.xib; sourceTree = "<group>"; };
+		D344E8F81159B8F0001DFF5B /* help.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = help.rtfd; sourceTree = "<group>"; };
+		D357CD76114C641E0075E24E /* RTTTLSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTTTLSong.h; path = Classes/RTTTLSong.h; sourceTree = "<group>"; };
+		D357CD77114C641E0075E24E /* RTTTLSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTTTLSong.m; path = Classes/RTTTLSong.m; sourceTree = "<group>"; };
+		D3B121E91127361900C1DECF /* RoombaAux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoombaAux.h; sourceTree = "<group>"; };
+		D3B121EA1127361900C1DECF /* RoombaAux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoombaAux.m; sourceTree = "<group>"; };
+		D3B121EB1127361900C1DECF /* RoomoteServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomoteServer.h; sourceTree = "<group>"; };
+		D3B121EC1127361900C1DECF /* RoomoteServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomoteServer.m; sourceTree = "<group>"; };
+		D3B121ED1127361900C1DECF /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		D3B121EE1127361900C1DECF /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
+		D3B121F31127363900C1DECF /* librxtxSerial.jnilib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = librxtxSerial.jnilib; sourceTree = "<group>"; };
+		D3B121F41127363900C1DECF /* roombacomm.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = roombacomm.jar; sourceTree = "<group>"; };
+		D3B121F51127363900C1DECF /* RXTXcomm.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = RXTXcomm.jar; sourceTree = "<group>"; };
+		D3B121F91127366000C1DECF /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = SOURCE_ROOT; };
+		D3B121FA1127366000C1DECF /* icon64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon64.png; path = icon/icon64.png; sourceTree = SOURCE_ROOT; };
+		D3B121FB1127366000C1DECF /* RoomoteServer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = RoomoteServer.icns; path = icon/RoomoteServer.icns; sourceTree = SOURCE_ROOT; };
+		D3B121FC1127366000C1DECF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		D3B122071127370D00C1DECF /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		D3B122091127370D00C1DECF /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3B121E91127361900C1DECF /* RoombaAux.h */,
+				D3B121EA1127361900C1DECF /* RoombaAux.m */,
+				D3B121EB1127361900C1DECF /* RoomoteServer.h */,
+				D3B121EC1127361900C1DECF /* RoomoteServer.m */,
+				D3B121ED1127361900C1DECF /* TCPServer.h */,
+				D3B121EE1127361900C1DECF /* TCPServer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Roomote Server.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Roomote Server */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				D33980E61147CD09002E06C4 /* Core Data */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Roomote Server";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Roomote Server_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				D319F0B10F28A99C0067E409 /* roombalib.h */,
+				D319F0B00F28A99C0067E409 /* roombalib.c */,
+				D304880F0F348F2C0072B1EC /* networking.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3B121F31127363900C1DECF /* librxtxSerial.jnilib */,
+				D3B121F41127363900C1DECF /* roombacomm.jar */,
+				D3B121F51127363900C1DECF /* RXTXcomm.jar */,
+				D3B121F91127366000C1DECF /* Credits.rtf */,
+				D3B121FA1127366000C1DECF /* icon64.png */,
+				D3B121FB1127366000C1DECF /* RoomoteServer.icns */,
+				D344E8F81159B8F0001DFF5B /* help.rtfd */,
+				D3B121FC1127366000C1DECF /* Info.plist */,
+				D3B122061127370D00C1DECF /* InfoPlist.strings */,
+				D3B122081127370D00C1DECF /* MainMenu.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33980E61147CD09002E06C4 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				D33980E91147CD4C002E06C4 /* Songs.xcdatamodel */,
+				D33980ED1147CF46002E06C4 /* Songs.xib */,
+				D357CD76114C641E0075E24E /* RTTTLSong.h */,
+				D357CD77114C641E0075E24E /* RTTTLSong.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Roomote Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Roomote Server" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roomote Server";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Roomote Server";
+			productReference = 8D1107320486CEB800E47090 /* Roomote Server.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Roomote Server" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Roomote Server */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Roomote Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B122141127374E00C1DECF /* roombacomm.jar in Resources */,
+				D3B122151127374E00C1DECF /* RXTXcomm.jar in Resources */,
+				D3B121F61127363900C1DECF /* librxtxSerial.jnilib in Resources */,
+				D3B121FD1127366000C1DECF /* Credits.rtf in Resources */,
+				D3B121FE1127366000C1DECF /* icon64.png in Resources */,
+				D3B121FF1127366000C1DECF /* RoomoteServer.icns in Resources */,
+				D3B1220A1127370D00C1DECF /* InfoPlist.strings in Resources */,
+				D3B1220B1127370D00C1DECF /* MainMenu.xib in Resources */,
+				D33980EE1147CF46002E06C4 /* Songs.xib in Resources */,
+				D344E8F91159B8F0001DFF5B /* help.rtfd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				D319F0B20F28A99C0067E409 /* roombalib.c in Sources */,
+				D3B121EF1127361900C1DECF /* RoombaAux.m in Sources */,
+				D3B121F01127361900C1DECF /* RoomoteServer.m in Sources */,
+				D3B121F11127361900C1DECF /* TCPServer.m in Sources */,
+				D33980EA1147CD4C002E06C4 /* Songs.xcdatamodel in Sources */,
+				D357CD78114C641E0075E24E /* RTTTLSong.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3B122061127370D00C1DECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B122071127370D00C1DECF /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3B122081127370D00C1DECF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B122091127370D00C1DECF /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomote Server_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Roomote Server";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomote Server_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Roomote Server";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Roomote Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Roomote Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
