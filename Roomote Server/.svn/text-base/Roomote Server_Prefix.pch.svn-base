@@ -1,9 +1,0 @@
-//
-// Prefix header for all source files of the 'Roomote Server' target in the 'Roomote Server' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif
-
-#include <Carbon/Carbon.h>
