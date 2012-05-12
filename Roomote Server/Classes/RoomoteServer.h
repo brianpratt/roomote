@@ -36,7 +36,7 @@
 #import "networking.h"
 
 
-@interface RoomoteServer : NSObject <TCPServerDelegate, RoombaAuxDelegate> {
+@interface RoomoteServer : NSObject <TCPServerDelegate, RoombaAuxDelegate, NSStreamDelegate> {
     Roomba*         roomba;
 	
 	IBOutlet RoombaAux*				roombaAux;
