@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,12 +19,11 @@
 		D3B121F11127361900C1DECF /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B121EE1127361900C1DECF /* TCPServer.m */; };
 		D3B121F61127363900C1DECF /* librxtxSerial.jnilib in Resources */ = {isa = PBXBuildFile; fileRef = D3B121F31127363900C1DECF /* librxtxSerial.jnilib */; };
 		D3B121FD1127366000C1DECF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D3B121F91127366000C1DECF /* Credits.rtf */; };
-		D3B121FE1127366000C1DECF /* icon64.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B121FA1127366000C1DECF /* icon64.png */; };
-		D3B121FF1127366000C1DECF /* RoomoteServer.icns in Resources */ = {isa = PBXBuildFile; fileRef = D3B121FB1127366000C1DECF /* RoomoteServer.icns */; };
 		D3B1220A1127370D00C1DECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3B122061127370D00C1DECF /* InfoPlist.strings */; };
 		D3B1220B1127370D00C1DECF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B122081127370D00C1DECF /* MainMenu.xib */; };
 		D3B122141127374E00C1DECF /* roombacomm.jar in Resources */ = {isa = PBXBuildFile; fileRef = D3B121F41127363900C1DECF /* roombacomm.jar */; };
 		D3B122151127374E00C1DECF /* RXTXcomm.jar in Resources */ = {isa = PBXBuildFile; fileRef = D3B121F51127363900C1DECF /* RXTXcomm.jar */; };
+		D3B2F5F1155EAADB00DBAC13 /* Roomote Server.icns in Resources */ = {isa = PBXBuildFile; fileRef = D3B2F5F0155EAADB00DBAC13 /* Roomote Server.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,11 +52,10 @@
 		D3B121F41127363900C1DECF /* roombacomm.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = roombacomm.jar; sourceTree = "<group>"; };
 		D3B121F51127363900C1DECF /* RXTXcomm.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = RXTXcomm.jar; sourceTree = "<group>"; };
 		D3B121F91127366000C1DECF /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = SOURCE_ROOT; };
-		D3B121FA1127366000C1DECF /* icon64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon64.png; path = icon/icon64.png; sourceTree = SOURCE_ROOT; };
-		D3B121FB1127366000C1DECF /* RoomoteServer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = RoomoteServer.icns; path = icon/RoomoteServer.icns; sourceTree = SOURCE_ROOT; };
 		D3B121FC1127366000C1DECF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		D3B122071127370D00C1DECF /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		D3B122091127370D00C1DECF /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		D3B2F5F0155EAADB00DBAC13 /* Roomote Server.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Roomote Server.icns"; path = "icon/Roomote Server.icns"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +141,7 @@
 				D3B121F41127363900C1DECF /* roombacomm.jar */,
 				D3B121F51127363900C1DECF /* RXTXcomm.jar */,
 				D3B121F91127366000C1DECF /* Credits.rtf */,
-				D3B121FA1127366000C1DECF /* icon64.png */,
-				D3B121FB1127366000C1DECF /* RoomoteServer.icns */,
+				D3B2F5F0155EAADB00DBAC13 /* Roomote Server.icns */,
 				D344E8F81159B8F0001DFF5B /* help.rtfd */,
 				D3B121FC1127366000C1DECF /* Info.plist */,
 				D3B122061127370D00C1DECF /* InfoPlist.strings */,
@@ -199,9 +196,16 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Roomote Server" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Roomote Server */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -220,12 +224,11 @@
 				D3B122151127374E00C1DECF /* RXTXcomm.jar in Resources */,
 				D3B121F61127363900C1DECF /* librxtxSerial.jnilib in Resources */,
 				D3B121FD1127366000C1DECF /* Credits.rtf in Resources */,
-				D3B121FE1127366000C1DECF /* icon64.png in Resources */,
-				D3B121FF1127366000C1DECF /* RoomoteServer.icns in Resources */,
 				D3B1220A1127370D00C1DECF /* InfoPlist.strings in Resources */,
 				D3B1220B1127370D00C1DECF /* MainMenu.xib in Resources */,
 				D33980EE1147CF46002E06C4 /* Songs.xib in Resources */,
 				D344E8F91159B8F0001DFF5B /* help.rtfd in Resources */,
+				D3B2F5F1155EAADB00DBAC13 /* Roomote Server.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +277,11 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Roomote Server_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "Roomote Server";
@@ -293,6 +296,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Roomote Server_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "Roomote Server";
@@ -307,9 +311,9 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -320,8 +324,8 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
