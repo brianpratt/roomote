@@ -76,9 +76,5 @@
 - (void)runDemo;
 - (void)playSong;
 
-// State Variables
-unsigned int currentVelocity;
-unsigned int currentTurnRadius;
-
 
 @end

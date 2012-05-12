@@ -15,7 +15,7 @@
 
 @class MainViewController;
 
-@interface RootViewController : UIViewController <RoombaCommDelegate, FlipsideViewControllerDelegate, BonjourBrowserDelegate> {
+@interface RootViewController : UIViewController <RoombaCommDelegate, FlipsideViewControllerDelegate, BonjourBrowserDelegate, NSStreamDelegate> {
 
     UIButton				*infoButton;
     MainViewController		*mainViewController;

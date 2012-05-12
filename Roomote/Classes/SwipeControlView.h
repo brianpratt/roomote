@@ -10,27 +10,16 @@
 
 @class SwipeControlView;
 
-@protocol SwipeControlViewDelegate
-
-@required
-- (void) hold: (BOOL) holdOn;
-
-@end
-
 
 @interface SwipeControlView : UIView {
 	
-	id<SwipeControlViewDelegate>	delegate;
+	id	delegate;
 	
 	// Display elements
     UIImageView *roombaView;
-    UIButton *holdButton;
-	
-    BOOL holdButtonIsShowing;
 }
 
 - (void) setDelegate: (id) newDelegate;
-- (void) toggleHoldButton: (id) sender;
 - (void) updateRoombaViewWithX: (float) x andY: (float) y;
 - (void) recenterAndRotateRoombaView: (BOOL) clockwise;
 - (void) endRotation;

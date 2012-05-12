@@ -165,7 +165,7 @@
        x2="263"
        y1="200.36218"
        x1="251"
-       gradientTransform="matrix(0.37327676,0,0,0.96078354,-66.44536,651.06693)"
+       gradientTransform="matrix(0.37327676,0,0,0.96078354,-73.516428,647.02632)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient4505-0"
        xlink:href="#linearGradient14111-5-3"
@@ -228,6 +228,57 @@
          offset="1"
          id="stop14115-4-5-2" />
     </linearGradient>
+    <inkscape:perspective
+       id="perspective2928"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2962"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14111-5-3"
+       id="linearGradient2976"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.37327676,0,0,0.96078354,128.009,685.91719)"
+       x1="251"
+       y1="200.36218"
+       x2="263"
+       y2="277.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14111-5-3"
+       id="linearGradient2978"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.50335806,0,0,1.0839616,79.435474,626.78106)"
+       x1="251"
+       y1="200.36218"
+       x2="263"
+       y2="277.36218" />
+    <inkscape:perspective
+       id="perspective3023"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14111-5-3"
+       id="linearGradient3039"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.50335806,0,0,1.0839616,129.9431,738.4029)"
+       x1="251"
+       y1="200.36218"
+       x2="263"
+       y2="277.36218" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -237,16 +288,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="143.67507"
-     inkscape:cy="134.89904"
+     inkscape:cx="234.41446"
+     inkscape:cy="89.373697"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1483"
      inkscape:window-height="926"
-     inkscape:window-x="973"
-     inkscape:window-y="327"
-     inkscape:window-maximized="0" />
+     inkscape:window-x="836"
+     inkscape:window-y="215"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -275,10 +328,10 @@
        ry="8" />
     <g
        id="g4393"
-       transform="translate(-96.84515,-17.180249)"
-       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_64_38.png"
-       inkscape:export-xdpi="87.269997"
-       inkscape:export-ydpi="87.269997">
+       transform="translate(-103.91622,-21.220859)"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/button_64_38@2x.png"
+       inkscape:export-xdpi="174.55"
+       inkscape:export-ydpi="174.55">
       <rect
          inkscape:export-ydpi="87.269997"
          inkscape:export-xdpi="87.269997"
@@ -306,7 +359,7 @@
     </g>
     <g
        id="g4407"
-       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_208_38.png"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/button_208_38@2x.png"
        inkscape:export-xdpi="88.300003"
        inkscape:export-ydpi="88.300003"
        transform="translate(-34.109133,-57.578695)">
@@ -337,9 +390,9 @@
     </g>
     <g
        id="g4389"
-       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_88_38.png"
-       inkscape:export-xdpi="88"
-       inkscape:export-ydpi="88"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/button_88_38@2x.png"
+       inkscape:export-xdpi="176"
+       inkscape:export-ydpi="176"
        transform="translate(59.751155,51.303572)">
       <rect
          inkscape:export-ydpi="87.692307"
@@ -379,19 +432,22 @@
        id="path14107-6-2"
        d="m 53.595371,771.73777 c -10.628008,0 -19.184163,6.85615 -19.184163,15.37252 l 0,23.05882 c 79.058132,3.82458 73.353382,-12.29041 211.999992,-28.91357 -2.85981,-5.60066 -9.71775,-9.51777 -17.76032,-9.51777 l -175.055509,0 z"
        style="opacity:0.6;fill:url(#linearGradient4505);fill-opacity:1;stroke:none"
-       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/Roomote/Images/shiny_blue_button.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/button_208_38@2x.png"
+       inkscape:export-xdpi="88.300003"
+       inkscape:export-ydpi="88.300003" />
     <path
        sodipodi:nodetypes="cccccc"
        id="path14107-6-23"
-       d="m 26.12728,865.68195 c -3.30872,0 -5.97243,6.85615 -5.97243,15.37252 l 0,23.05879 c 24.61244,3.8246 22.83643,-12.29036 66,-28.91354 -0.89032,-5.60066 -3.02534,-9.51777 -5.52916,-9.51777 l -54.49841,0 z"
+       d="m 19.056212,861.64134 c -3.30872,0 -5.97243,6.85615 -5.97243,15.37252 l 0,23.05879 c 24.61244,3.8246 22.83643,-12.29036 66,-28.91354 -0.89032,-5.60066 -3.02534,-9.51777 -5.52916,-9.51777 l -54.49841,0 z"
        style="opacity:0.6;fill:url(#linearGradient4505-0);fill-opacity:1;stroke:none"
-       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/Roomote/Images/shiny_blue_button.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/button_64_38@2x.png"
+       inkscape:export-xdpi="174.55"
+       inkscape:export-ydpi="174.55" />
     <g
-       id="g2926">
+       id="g2926"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/button_215_37@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -434,9 +490,9 @@
     </g>
     <g
        id="g2921"
-       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/trunk/Roomote/Images/button_160_37.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/button_160_37@2x.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
       <rect
          inkscape:export-ydpi="87.269997"
          inkscape:export-xdpi="87.269997"
@@ -470,5 +526,107 @@
          id="path14107-6-2-7"
          sodipodi:nodetypes="cccccc" />
     </g>
+    <rect
+       inkscape:export-ydpi="173.92999"
+       inkscape:export-xdpi="173.92999"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/hold_button@2x.png"
+       ry="8.6797781"
+       rx="8.0450678"
+       y="870.04303"
+       x="197.34659"
+       height="41.735882"
+       width="86.735886"
+       id="rect2970"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.26411748;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="173.92999"
+       inkscape:export-xdpi="173.92999"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/hold_button@2x.png"
+       ry="5.3010259"
+       rx="8.2758617"
+       y="873.41095"
+       x="200.71454"
+       height="35"
+       width="80"
+       id="rect2972"
+       style="fill:#777777;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="217.39716"
+       y="897.6214"
+       id="text2982"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/hold_button@2x.png"
+       inkscape:export-xdpi="173.92999"
+       inkscape:export-ydpi="173.92999"><tspan
+         sodipodi:role="line"
+         id="tspan2984"
+         x="217.39716"
+         y="897.6214"
+         style="font-size:18px;font-weight:bold;-inkscape-font-specification:Bitstream Vera Sans Bold">Hold</tspan></text>
+    <path
+       inkscape:export-ydpi="173.92999"
+       inkscape:export-xdpi="173.92999"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/hold_button@2x.png"
+       style="opacity:0.6;fill:url(#linearGradient2978);fill-opacity:1;stroke:none"
+       d="m 204.26826,868.91098 c -4.46176,0 -8.05373,7.73515 -8.05373,17.34337 l 0,26.01506 c 33.1895,4.31494 30.79458,-13.86605 89,-32.62042 -1.20058,-6.3187 -4.07963,-10.73801 -7.45599,-10.73801 l -73.49028,0 z"
+       id="path2974"
+       sodipodi:nodetypes="cccccc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2986"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:40px"><flowRegion
+         id="flowRegion2988"><rect
+           id="rect2990"
+           width="116.67262"
+           height="77.781746"
+           x="185.36299"
+           y="95.444115" /></flowRegion><flowPara
+         id="flowPara2992"></flowPara></flowRoot>    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.26411748;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3029"
+       width="86.735886"
+       height="41.735882"
+       x="247.85422"
+       y="981.66492"
+       rx="8.0450678"
+       ry="8.6797781"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/release_button@2x.png"
+       inkscape:export-xdpi="173.92999"
+       inkscape:export-ydpi="173.92999" />
+    <rect
+       style="fill:#777777;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3031"
+       width="80"
+       height="35"
+       x="251.22217"
+       y="985.03284"
+       rx="8.2758617"
+       ry="5.3010259"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/release_button@2x.png"
+       inkscape:export-xdpi="173.92999"
+       inkscape:export-ydpi="173.92999" />
+    <text
+       id="text3033"
+       y="1008.4977"
+       x="255.55811"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/release_button@2x.png"
+       inkscape:export-xdpi="173.92999"
+       inkscape:export-ydpi="173.92999"><tspan
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         y="1008.4977"
+         x="255.55811"
+         id="tspan3035"
+         sodipodi:role="line">Release</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path3037"
+       d="m 254.77589,980.53282 c -4.46176,0 -8.05373,7.73515 -8.05373,17.34337 l 0,26.01511 c 33.1895,4.3149 30.79458,-13.8661 89,-32.62047 -1.20058,-6.3187 -4.07963,-10.73801 -7.45599,-10.73801 l -73.49028,0 z"
+       style="opacity:0.6;fill:url(#linearGradient3039);fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Volumes/Data/Users/brian/dev/iphone/roomote/git/roomote/Roomote/Images/release_button@2x.png"
+       inkscape:export-xdpi="173.92999"
+       inkscape:export-ydpi="173.92999" />
   </g>
 </svg>

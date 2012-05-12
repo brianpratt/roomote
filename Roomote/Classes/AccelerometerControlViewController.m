@@ -61,14 +61,16 @@ typedef enum kAccelCommandEnum {
 - (void) spinRightWithVelocity: (unsigned) velocity;
 - (void) stop;
 
-unsigned maxVelocity = DEFAULT_VELOCITY;
-
 @end
 
 
 @implementation AccelerometerControlViewController
 
 @synthesize roombaComm;
+
+
+unsigned maxVelocity = DEFAULT_VELOCITY;
+
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.

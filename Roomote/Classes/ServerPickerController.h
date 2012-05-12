@@ -18,7 +18,7 @@
 - (void) reloadServerPickerView;
 @end
 
-@interface ServerPickerController : NSObject<UIPickerViewDelegate, UIPickerViewDataSource> {
+@interface ServerPickerController : NSObject<UIPickerViewDelegate, UIPickerViewDataSource, NSNetServiceDelegate, NSNetServiceBrowserDelegate> {
 	
 @private
 	id<ServerPickerControllerDelegate> _delegate;

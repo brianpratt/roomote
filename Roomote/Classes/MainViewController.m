@@ -8,18 +8,10 @@
 
 #import "MainViewController.h"
 #import "MainView.h"
-#import "ButtonControlViewController.h";
-#import "SwipeControlViewController.h";
-#import "AccelerometerControlViewController.h";
+#import "ButtonControlViewController.h"
+#import "SwipeControlViewController.h"
+#import "AccelerometerControlViewController.h"
 #import "UserDefaults.h"
-
-
-// A class extension to declare private methods and variables
-@interface MainViewController ()
-
-unsigned velocity = DEFAULT_VELOCITY;
-
-@end
 
 
 
@@ -37,6 +29,9 @@ unsigned velocity = DEFAULT_VELOCITY;
 @synthesize customButton1;
 @synthesize customButton2;
 @synthesize customButton3;
+
+
+unsigned velocity = DEFAULT_VELOCITY;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

@@ -27,9 +27,6 @@
 		self.multipleTouchEnabled = YES;
 		//self.backgroundColor = [UIColor blueColor];
 		
-        // Set default state
-        holdButtonIsShowing = YES;
-		
 		// Set up subviews
         [self setupSubviewsWithContentFrame:frame];
     }
@@ -60,20 +57,8 @@
 	roombaView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"roomba.png"]];
 	roombaView.center = self.center;
 	
-	/*
-	// set up Hold button
-	float holdShiftRight = 5.0;
-	float holdShiftDown = 5.0;
-	
-	UIImage *buttonImage = [UIImage imageNamed:@"hold_button.png"];
-	CGRect buttonFrame = CGRectMake(holdShiftRight, holdShiftDown, buttonImage.size.width, buttonImage.size.height);
-	holdButton = [self buttonWithTitle:nil target:self selector:@selector(toggleHoldButton:) frame:buttonFrame image:buttonImage];
-	[holdButton retain];
-	*/
-	
 	// add view in proper order and location
 	[self addSubview: roombaView];
-	//[self addSubview: holdButton];
 	[self setNeedsDisplay];
 }
 
@@ -85,7 +70,6 @@
 
 - (void)dealloc {
 	
-    [holdButton release];
 	[roombaView release];
 	
     [super dealloc];
@@ -95,23 +79,6 @@
 
 - (void) setDelegate:(id)newDelegate {
 	delegate = newDelegate;
-}
-
-
-// Display only updates if Hold/Release button hasn't been pressed 
-- (void) toggleHoldButton: (id) sender {
-    if (holdButtonIsShowing == YES) {
-        holdButtonIsShowing = NO;
-        [holdButton setImage:[UIImage imageNamed:@"release_button.png"] forState:UIControlStateNormal];
-		
-		[delegate hold: YES];
-    } else {
-        holdButtonIsShowing = YES;
-        // set image on Hold button
-        [holdButton setImage:[UIImage imageNamed:@"hold_button.png"] forState:UIControlStateNormal];
-		
-		[delegate hold: NO];
-    }    
 }
 
 

@@ -13,6 +13,11 @@
 @implementation RoombaComm
 
 
+// State Variables
+unsigned int currentVelocity;
+unsigned int currentTurnRadius;
+
+
 // Accessor Methods
 - (void)setDelegate:(id)newDelegate {
 	delegate = newDelegate;
