@@ -56,7 +56,7 @@ typedef struct touch_keeper_struct {
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-	swipeControlView = [[SwipeControlView alloc] initWithFrame: CGRectMake(0.0, 0.0, 320.0, 270.0)];
+	swipeControlView = [[SwipeControlView alloc] initWithFrame: CGRectMake(0.0, 0.0, 320.0, kControlViewHeight)];
 	self.view = swipeControlView;
 	[swipeControlView release];
 	

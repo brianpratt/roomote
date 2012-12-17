@@ -124,7 +124,7 @@
 	// Shrink the text view so the user can see it even while the keyboard is up
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.3];
-	self.textView.frame = CGRectMake(20.0, 132.0, 280.0, 328.0-216.0);
+	self.textView.frame = CGRectMake(20.0, kScreenHeightNoStatus-328.0, 280.0, 328.0-kPickerViewHeight);
 	[UIView commitAnimations];
 }
 
@@ -242,7 +242,7 @@
 	[textField resignFirstResponder];
 	
 	// Re-enlarge the text view so the user has more space to read while the keyboard is down
-	self.textView.frame = CGRectMake(20.0, 132.0, 280.0, 328.0);
+	self.textView.frame = CGRectMake(20.0, kScreenHeightNoStatus-328.0, 280.0, 328.0);
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {

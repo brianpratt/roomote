@@ -46,7 +46,7 @@
     [aSongPickerController release];
 	
 	// Set up the SongPickerView
-	UIPickerView *aSongPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.0, 244.0, 320.0, 216.0)];
+	UIPickerView *aSongPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight, 320.0, kPickerViewHeight)];
 	aSongPickerView.showsSelectionIndicator = YES;
 	aSongPickerView.delegate = songPickerController;
 	aSongPickerView.dataSource = songPickerController;
@@ -60,7 +60,7 @@
     [aDemoPickerController release];
 	
 	// Set up the DemoPickerView
-	UIPickerView *aDemoPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.0, 244.0, 320.0, 216.0)];
+	UIPickerView *aDemoPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight, 320.0, kPickerViewHeight)];
 	aDemoPickerView.showsSelectionIndicator = YES;
 	aDemoPickerView.delegate = demoPickerController;
 	aDemoPickerView.dataSource = demoPickerController;
@@ -68,7 +68,7 @@
 	[aDemoPickerView release];
     
     // Set up the Picker navigation bar
-    UINavigationBar *aNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0, 200.0, 320.0, 44.0)];
+    UINavigationBar *aNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight-kNavigationBarHeight, 320.0, kNavigationBarHeight)];
     aNavigationBar.barStyle = UIBarStyleBlackOpaque;
     self.pickerNavigationBar = aNavigationBar;
     [aNavigationBar release];
@@ -286,7 +286,7 @@
 		// Create a background to prevent any other touching while the picker is up
 		if (!noTouchBackground) {
 			//noTouchBackground = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-			noTouchBackground = [[UIView alloc] initWithFrame: CGRectMake(0.0, 0.0, 320.0, 460.0)];
+			noTouchBackground = [[UIView alloc] initWithFrame: CGRectMake(0.0, 0.0, 320.0, kScreenHeightNoStatus)];
 			noTouchBackground.backgroundColor = [UIColor blackColor];
 			noTouchBackground.opaque = NO;
 			noTouchBackground.alpha = 0.0;
@@ -298,14 +298,14 @@
         [self.view addSubview:pickerNavigationBar];
 		
 		// Move these subviews off the screen
-		pickerNavigationBar.frame = CGRectMake(0.0, 460.0, 320.0, 44.0);
-		demoPickerView.frame = CGRectMake(0.0, 504.0, 320.0, 216.0);
+		pickerNavigationBar.frame = CGRectMake(0.0, kScreenHeightNoStatus, 320.0, kNavigationBarHeight);
+		demoPickerView.frame = CGRectMake(0.0, kScreenHeightNoStatus+kNavigationBarHeight, 320.0, kPickerViewHeight);
 		
 		// Slide them in for a nice effect
 		[UIView beginAnimations:nil context:NULL];
 		[UIView setAnimationDuration:0.5];
-		demoPickerView.frame = CGRectMake(0.0, 244.0, 320.0, 216.0);
-		pickerNavigationBar.frame = CGRectMake(0.0, 200.0, 320.0, 44.0);
+		demoPickerView.frame = CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight, 320.0, kPickerViewHeight);
+		pickerNavigationBar.frame = CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight-kNavigationBarHeight, 320.0, kNavigationBarHeight);
 		// Fade in the no-touch background
 		noTouchBackground.alpha = 0.5;
 		[UIView commitAnimations];
@@ -329,7 +329,7 @@
 		// Create a background to prevent any other touching while the picker is up
 		if (!noTouchBackground) {
 			//noTouchBackground = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-			noTouchBackground = [[UIView alloc] initWithFrame: CGRectMake(0.0, 0.0, 320.0, 460.0)];
+			noTouchBackground = [[UIView alloc] initWithFrame: CGRectMake(0.0, 0.0, 320.0, kScreenHeightNoStatus)];
 			noTouchBackground.backgroundColor = [UIColor blackColor];
 			noTouchBackground.opaque = NO;
 			noTouchBackground.alpha = 0.0;
@@ -341,14 +341,14 @@
         [self.view addSubview:pickerNavigationBar];
 		
 		// Move these subviews off the screen
-		pickerNavigationBar.frame = CGRectMake(0.0, 460.0, 320.0, 44.0);
-		songPickerView.frame = CGRectMake(0.0, 504.0, 320.0, 216.0);
+		pickerNavigationBar.frame = CGRectMake(0.0, kScreenHeightNoStatus, 320.0, kNavigationBarHeight);
+		songPickerView.frame = CGRectMake(0.0, kScreenHeightNoStatus+kNavigationBarHeight, 320.0, kPickerViewHeight);
 		
 		// Slide them in for a nice effect
 		[UIView beginAnimations:nil context:NULL];
 		[UIView setAnimationDuration:0.5];
-		songPickerView.frame = CGRectMake(0.0, 244.0, 320.0, 216.0);
-		pickerNavigationBar.frame = CGRectMake(0.0, 200.0, 320.0, 44.0);
+		songPickerView.frame = CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight, 320.0, kPickerViewHeight);
+		pickerNavigationBar.frame = CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight-kNavigationBarHeight, 320.0, kNavigationBarHeight);
 		// Fade in the no-touch background
 		noTouchBackground.alpha = 0.5;
 		[UIView commitAnimations];
@@ -435,13 +435,13 @@
 	
 	// Slide in the TutorialView
 	[self.view addSubview: tutorialView];
-	tutorialView.frame = CGRectMake(0.0, 460.0, 320.0, 460.0);
+	tutorialView.frame = CGRectMake(0.0, kScreenHeightNoStatus, 320.0, kScreenHeightNoStatus);
 	
     [UIView beginAnimations:nil context:NULL];
 	
 	// Slide into view
     [UIView setAnimationDuration:0.5];
-	tutorialView.frame = CGRectMake(0.0, 0.0, 320.0, 460.0);
+	tutorialView.frame = CGRectMake(0.0, 0.0, 320.0, kScreenHeightNoStatus);
 	
 	[UIView commitAnimations];
 }
@@ -453,7 +453,7 @@
     [UIView setAnimationDuration:0.5];
 	
 	// Slide out of view
-	tutorialView.frame = CGRectMake(0.0, 460.0, 320.0, 460.0);
+	tutorialView.frame = CGRectMake(0.0, kScreenHeightNoStatus, 320.0, kScreenHeightNoStatus);
 	
 	// Remove the view after it has left the screen
 	[NSTimer scheduledTimerWithTimeInterval:0.6 target:tutorialView selector:@selector(removeFromSuperview) userInfo:nil repeats:NO];
@@ -477,17 +477,17 @@
 	
 	// Remove the navigation bar
 	if (self.pickerNavigationBar.superview) {
-		self.pickerNavigationBar.frame = CGRectMake(0.0, 460.0, 320.0, 44.0);
+		self.pickerNavigationBar.frame = CGRectMake(0.0, kScreenHeightNoStatus, 320.0, kNavigationBarHeight);
 		[NSTimer scheduledTimerWithTimeInterval:0.5 target:self.pickerNavigationBar selector:@selector(removeFromSuperview) userInfo:nil repeats:NO];
 	}
 	
 	// Remove the SongPicker and DemoPicker View
 	if (self.songPickerView.superview) {
-		self.songPickerView.frame = CGRectMake(0.0, 460.0, 320.0, 216.0);
+		self.songPickerView.frame = CGRectMake(0.0, kScreenHeightNoStatus, 320.0, kPickerViewHeight);
 		[NSTimer scheduledTimerWithTimeInterval:0.5 target:self.songPickerView selector:@selector(removeFromSuperview) userInfo:nil repeats:NO];
 	}
 	if (self.demoPickerView.superview) {
-		self.demoPickerView.frame = CGRectMake(0.0, 504.0, 320.0, 216.0);
+		self.demoPickerView.frame = CGRectMake(0.0, kScreenHeightNoStatus+kNavigationBarHeight, 320.0, kPickerViewHeight);
 		[NSTimer scheduledTimerWithTimeInterval:0.5 target:self.demoPickerView selector:@selector(removeFromSuperview) userInfo:nil repeats:NO];
 	}
 	

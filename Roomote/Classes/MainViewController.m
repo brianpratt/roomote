@@ -255,17 +255,21 @@ unsigned velocity = DEFAULT_VELOCITY;
 	[self.controlViewController hold: YES];
 	
 	// Slide in CustomCommandEditor, passing the index of the button pushed
-	CustomCommandEditViewController* viewController = [[CustomCommandEditViewController alloc] initWithNibName:@"CustomCommandEditView" bundle:nil commandNumber:[sender tag]];
+	CustomCommandEditViewController* viewController = nil;
+    if ([[UIScreen mainScreen] bounds].size.height == 568 && [[UIScreen mainScreen] scale] == 2.0)
+        viewController = [[CustomCommandEditViewController alloc] initWithNibName:@"CustomCommandEditView-568h" bundle:nil commandNumber:[sender tag]];
+    else
+        viewController = [[CustomCommandEditViewController alloc] initWithNibName:@"CustomCommandEditView" bundle:nil commandNumber:[sender tag]];
 	[viewController setDelegate: self];
 	self.customCommandEditViewController = viewController;
 	[self.view addSubview: viewController.view];
-	viewController.view.frame = CGRectMake(0.0, 460.0, 320.0, 460.0);
+	viewController.view.frame = CGRectMake(0.0, kScreenHeightNoStatus, 320.0, kScreenHeightNoStatus);
 	
     [UIView beginAnimations:nil context:NULL];
 	
 	// Slide into view
     [UIView setAnimationDuration:0.5];
-	viewController.view.frame = CGRectMake(0.0, 0.0, 320.0, 460.0);
+	viewController.view.frame = CGRectMake(0.0, 0.0, 320.0, kScreenHeightNoStatus);
 	
 	[UIView commitAnimations];
 	
@@ -336,7 +340,7 @@ unsigned velocity = DEFAULT_VELOCITY;
     [UIView setAnimationDuration:0.5];
 	
 	// Slide out of view
-	customCommandEditView.frame = CGRectMake(0.0, 460.0, 320.0, 460.0);
+	customCommandEditView.frame = CGRectMake(0.0, kScreenHeightNoStatus, 320.0, kScreenHeightNoStatus);
 	// Remove the views after they have left the screen
 	
 	[NSTimer scheduledTimerWithTimeInterval:0.6 target:customCommandEditView selector:@selector(removeFromSuperview) userInfo:nil repeats:NO];
@@ -368,7 +372,10 @@ unsigned velocity = DEFAULT_VELOCITY;
 	// Select the control view type
 	switch (controlType) {
 		case kControlTypeButton:
-			viewController = [[ButtonControlViewController alloc] initWithNibName:@"ButtonControlView" bundle:nil];
+            if ([[UIScreen mainScreen] bounds].size.height == 568 && [[UIScreen mainScreen] scale] == 2.0)
+                viewController = [[ButtonControlViewController alloc] initWithNibName:@"ButtonControlView-568h" bundle:nil];
+            else
+                viewController = [[ButtonControlViewController alloc] initWithNibName:@"ButtonControlView" bundle:nil];
 			self.velocityLabel.text = @"Velocity (mm/s)";
 			break;
 		case kControlTypeSwipe:
@@ -380,7 +387,10 @@ unsigned velocity = DEFAULT_VELOCITY;
 			self.velocityLabel.text = @"Maximum Velocity (mm/s)";
 			break;
 		default:
-			viewController = [[ButtonControlViewController alloc] initWithNibName:@"ButtonControlView" bundle:nil];
+            if ([[UIScreen mainScreen] bounds].size.height == 568 && [[UIScreen mainScreen] scale] == 2.0)
+                viewController = [[ButtonControlViewController alloc] initWithNibName:@"ButtonControlView-568h" bundle:nil];
+            else
+                viewController = [[ButtonControlViewController alloc] initWithNibName:@"ButtonControlView" bundle:nil];
 			self.velocityLabel.text = @"Velocity (mm/s)";
 			break;
 	}

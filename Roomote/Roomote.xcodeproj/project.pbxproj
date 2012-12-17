@@ -13,7 +13,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
 		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
-		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
 		289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A30DB2D0840083E9F9 /* FlipsideView.m */; };
 		289233A70DB2D0840083E9F9 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A50DB2D0840083E9F9 /* MainView.m */; };
@@ -24,6 +23,8 @@
 		D32AC10B10120A9300F8D10D /* roomba.png in Resources */ = {isa = PBXBuildFile; fileRef = D32AC10A10120A9300F8D10D /* roomba.png */; };
 		D32C70791140B46D0048BE95 /* button_160_37.png in Resources */ = {isa = PBXBuildFile; fileRef = D32C70771140B46C0048BE95 /* button_160_37.png */; };
 		D32C707A1140B46D0048BE95 /* button_215_37.png in Resources */ = {isa = PBXBuildFile; fileRef = D32C70781140B46C0048BE95 /* button_215_37.png */; };
+		D335766D167E69D800C8F613 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D335766C167E69D800C8F613 /* RootViewController.xib */; };
+		D335766F167E6AB800C8F613 /* RootViewController-568h.xib in Resources */ = {isa = PBXBuildFile; fileRef = D335766E167E6AB700C8F613 /* RootViewController-568h.xib */; };
 		D338D51D11235E040050EDF3 /* go_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D338D51B11235E040050EDF3 /* go_button.png */; };
 		D338D51E11235E040050EDF3 /* stop_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D338D51C11235E040050EDF3 /* stop_button.png */; };
 		D3397EEA100B5B8800BEF861 /* AccelerometerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3397EE9100B5B8800BEF861 /* AccelerometerControlView.m */; };
@@ -32,12 +33,17 @@
 		D3397F05100B5C0C00BEF861 /* ButtonControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3397F04100B5C0C00BEF861 /* ButtonControlViewController.m */; };
 		D3397F0A100B5EB700BEF861 /* ButtonControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3397F09100B5EB700BEF861 /* ButtonControlView.xib */; };
 		D33982F0100E099E00BEF861 /* AccelerometerSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = D33982EF100E099E00BEF861 /* AccelerometerSimulation.m */; };
+		D340F2C1167268E900306FEE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D340F2C0167268E900306FEE /* Default-568h@2x.png */; };
 		D343E4461107342A008FAB52 /* CustomCommandEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D343E4451107342A008FAB52 /* CustomCommandEditView.xib */; };
 		D343E45B11073CEC008FAB52 /* CustomCommandEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D343E45A11073CEC008FAB52 /* CustomCommandEditViewController.m */; };
 		D343E4D21107A2F4008FAB52 /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = D343E4D11107A2F4008FAB52 /* UserDefaults.m */; };
 		D3756FCE0F31D92B009A95C4 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D3756FCD0F31D92B009A95C4 /* bg.png */; };
 		D37B9703100B5206009FAA0A /* SwipeControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = D37B9702100B5206009FAA0A /* SwipeControlView.m */; };
 		D37B9708100B5263009FAA0A /* SwipeControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37B9707100B5263009FAA0A /* SwipeControlViewController.m */; };
+		D38E24B7167E163200577F6E /* ButtonControlView-568h.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38E24B2167E163200577F6E /* ButtonControlView-568h.xib */; };
+		D38E24B8167E163200577F6E /* CustomCommandEditView-568h.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38E24B3167E163200577F6E /* CustomCommandEditView-568h.xib */; };
+		D38E24B9167E163200577F6E /* FlipsideView-568h.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38E24B4167E163200577F6E /* FlipsideView-568h.xib */; };
+		D38E24BA167E163200577F6E /* MainView-568h.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38E24B5167E163200577F6E /* MainView-568h.xib */; };
 		D39EE2560F4301670005A173 /* SongPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EE2550F4301670005A173 /* SongPickerController.m */; };
 		D39EE3F70F445D700005A173 /* DemoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EE3F60F445D700005A173 /* DemoPickerController.m */; };
 		D39EE4330F4467360005A173 /* ServerPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EE4320F4467360005A173 /* ServerPickerController.m */; };
@@ -94,7 +100,6 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
 		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		289233A20DB2D0840083E9F9 /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideView.h; sourceTree = "<group>"; };
 		289233A30DB2D0840083E9F9 /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideView.m; sourceTree = "<group>"; };
@@ -114,12 +119,14 @@
 		D32AC10A10120A9300F8D10D /* roomba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roomba.png; sourceTree = "<group>"; };
 		D32C70771140B46C0048BE95 /* button_160_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_160_37.png; sourceTree = "<group>"; };
 		D32C70781140B46C0048BE95 /* button_215_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_215_37.png; sourceTree = "<group>"; };
+		D335766C167E69D800C8F613 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		D335766E167E6AB700C8F613 /* RootViewController-568h.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RootViewController-568h.xib"; sourceTree = "<group>"; };
 		D338D51B11235E040050EDF3 /* go_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go_button.png; sourceTree = "<group>"; };
 		D338D51C11235E040050EDF3 /* stop_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop_button.png; sourceTree = "<group>"; };
 		D3397EE8100B5B8800BEF861 /* AccelerometerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerControlView.h; sourceTree = "<group>"; };
 		D3397EE9100B5B8800BEF861 /* AccelerometerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerControlView.m; sourceTree = "<group>"; };
 		D3397EED100B5B9900BEF861 /* AccelerometerControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerControlViewController.h; sourceTree = "<group>"; };
-		D3397EEE100B5B9900BEF861 /* AccelerometerControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerControlViewController.m; sourceTree = "<group>"; };
+		D3397EEE100B5B9900BEF861 /* AccelerometerControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AccelerometerControlViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		D3397EFE100B5BFE00BEF861 /* ButtonControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonControlView.h; sourceTree = "<group>"; };
 		D3397EFF100B5BFE00BEF861 /* ButtonControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonControlView.m; sourceTree = "<group>"; };
 		D3397F03100B5C0C00BEF861 /* ButtonControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonControlViewController.h; sourceTree = "<group>"; };
@@ -128,6 +135,7 @@
 		D3397FB3100B657200BEF861 /* ControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlViewController.h; sourceTree = "<group>"; };
 		D33982EE100E099E00BEF861 /* AccelerometerSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerSimulation.h; sourceTree = "<group>"; };
 		D33982EF100E099E00BEF861 /* AccelerometerSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerSimulation.m; sourceTree = "<group>"; };
+		D340F2C0167268E900306FEE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D343E4451107342A008FAB52 /* CustomCommandEditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCommandEditView.xib; sourceTree = "<group>"; };
 		D343E45911073CEC008FAB52 /* CustomCommandEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCommandEditViewController.h; sourceTree = "<group>"; };
 		D343E45A11073CEC008FAB52 /* CustomCommandEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCommandEditViewController.m; sourceTree = "<group>"; };
@@ -137,8 +145,12 @@
 		D37B9701100B5206009FAA0A /* SwipeControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeControlView.h; sourceTree = "<group>"; };
 		D37B9702100B5206009FAA0A /* SwipeControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeControlView.m; sourceTree = "<group>"; };
 		D37B9706100B5263009FAA0A /* SwipeControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeControlViewController.h; sourceTree = "<group>"; };
-		D37B9707100B5263009FAA0A /* SwipeControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeControlViewController.m; sourceTree = "<group>"; };
+		D37B9707100B5263009FAA0A /* SwipeControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SwipeControlViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		D38D79A80F29FB030041E391 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		D38E24B2167E163200577F6E /* ButtonControlView-568h.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ButtonControlView-568h.xib"; sourceTree = "<group>"; };
+		D38E24B3167E163200577F6E /* CustomCommandEditView-568h.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CustomCommandEditView-568h.xib"; sourceTree = "<group>"; };
+		D38E24B4167E163200577F6E /* FlipsideView-568h.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FlipsideView-568h.xib"; sourceTree = "<group>"; };
+		D38E24B5167E163200577F6E /* MainView-568h.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainView-568h.xib"; sourceTree = "<group>"; };
 		D39EE2540F4301670005A173 /* SongPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongPickerController.h; sourceTree = "<group>"; };
 		D39EE2550F4301670005A173 /* SongPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongPickerController.m; sourceTree = "<group>"; };
 		D39EE3F50F445D700005A173 /* DemoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoPickerController.h; sourceTree = "<group>"; };
@@ -300,15 +312,21 @@
 				D3B2F623155EBB9800DBAC13 /* Icon@2x.png */,
 				D3B2F62F155ECF9300DBAC13 /* Default.png */,
 				D3B2F630155ECF9400DBAC13 /* Default@2x.png */,
+				D340F2C0167268E900306FEE /* Default-568h@2x.png */,
 				D3AA00060F4DDAE40031897D /* info_20_50.png */,
 				D3B2F627155EBFC800DBAC13 /* info_20_50@2x.png */,
 				D3AA00020F4DDA350031897D /* info_25_50.png */,
 				D3B2F628155EBFC900DBAC13 /* info_25_50@2x.png */,
-				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				D335766C167E69D800C8F613 /* RootViewController.xib */,
 				280E754B0DD40C5E005A515E /* MainView.xib */,
 				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
 				D3397F09100B5EB700BEF861 /* ButtonControlView.xib */,
 				D343E4451107342A008FAB52 /* CustomCommandEditView.xib */,
+				D335766E167E6AB700C8F613 /* RootViewController-568h.xib */,
+				D38E24B5167E163200577F6E /* MainView-568h.xib */,
+				D38E24B4167E163200577F6E /* FlipsideView-568h.xib */,
+				D38E24B2167E163200577F6E /* ButtonControlView-568h.xib */,
+				D38E24B3167E163200577F6E /* CustomCommandEditView-568h.xib */,
 				D3D2CD9B11553A4200F4ECDD /* tutorial.html */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 			);
@@ -455,7 +473,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Roomote" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -484,7 +502,6 @@
 			files = (
 				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
 				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
-				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
 				D319F08D0F28A3A30067E409 /* Icon.png in Resources */,
 				D3756FCE0F31D92B009A95C4 /* bg.png in Resources */,
 				D3AA00030F4DDA350031897D /* info_25_50.png in Resources */,
@@ -534,6 +551,13 @@
 				D3B2F62A155EBFC900DBAC13 /* info_25_50@2x.png in Resources */,
 				D3B2F631155ECF9400DBAC13 /* Default.png in Resources */,
 				D3B2F632155ECF9400DBAC13 /* Default@2x.png in Resources */,
+				D340F2C1167268E900306FEE /* Default-568h@2x.png in Resources */,
+				D38E24B7167E163200577F6E /* ButtonControlView-568h.xib in Resources */,
+				D38E24B8167E163200577F6E /* CustomCommandEditView-568h.xib in Resources */,
+				D38E24B9167E163200577F6E /* FlipsideView-568h.xib in Resources */,
+				D38E24BA167E163200577F6E /* MainView-568h.xib in Resources */,
+				D335766D167E69D800C8F613 /* RootViewController.xib in Resources */,
+				D335766F167E6AB800C8F613 /* RootViewController-568h.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,17 +599,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD_32_BIT)",
-					armv6,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Roomote_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Roomote;
 			};
 			name = Debug;
@@ -594,16 +616,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD_32_BIT)",
-					armv6,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Roomote_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Roomote;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};
@@ -656,17 +676,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD_32_BIT)",
-					armv6,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Roomote_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Roomote;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};

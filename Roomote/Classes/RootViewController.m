@@ -35,7 +35,6 @@
 @synthesize outStream;
 
 
-
 #pragma mark ____ ALERT VIEW METHODS ____
 
 - (void) showNetworkingAlert:(NSString*)title
@@ -85,7 +84,11 @@
 	[self.roombaComm setDelegate:self];
 	
 	// Set up MainView
-    MainViewController *viewController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
+    MainViewController *viewController = nil;
+    if ([[UIScreen mainScreen] bounds].size.height == 568 && [[UIScreen mainScreen] scale] == 2.0)
+        viewController = [[MainViewController alloc] initWithNibName:@"MainView-568h" bundle:nil];
+    else
+        viewController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
     self.mainViewController = viewController;
     [viewController release];
 	self.mainViewController.roombaComm = self.roombaComm;
@@ -111,7 +114,11 @@
 
 - (void)loadFlipsideViewController {
     
-    FlipsideViewController *viewController = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
+    FlipsideViewController *viewController = nil;
+    if ([[UIScreen mainScreen] bounds].size.height == 568 && [[UIScreen mainScreen] scale] == 2.0)
+        viewController = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView-568h" bundle:nil];
+    else
+        viewController = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
     self.flipsideViewController = viewController;
     [viewController release];
 	
@@ -232,9 +239,9 @@
 - (void) presentBonjourBrowser:(NSString*)name {
 	if (!bonjourBrowser) {
 		//bonjourBrowser = [[BonjourBrowser alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame] type:kServiceType];
-		//bonjourBrowser = [[BonjourBrowser alloc] initWithFrame:CGRectMake(0.0, 200.0, 320.0, 260.0) type:kServiceType];
+		//bonjourBrowser = [[BonjourBrowser alloc] initWithFrame:CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight-kNavigationBarHeight, 320.0, 260.0) type:kServiceType];
 		// Initialize the Picker off the screen
-		bonjourBrowser = [[BonjourBrowser alloc] initWithFrame:CGRectMake(0.0, 480.0, 320.0, 260.0) type:kServiceType];
+		bonjourBrowser = [[BonjourBrowser alloc] initWithFrame:CGRectMake(0.0, kScreenHeight, 320.0, 260.0) type:kServiceType];
 		[bonjourBrowser setDelegate:self];
 	}
 	
@@ -242,7 +249,7 @@
 		
 		// Create a background to prevent any other touching while the picker is up
 		if (!noTouchBackground) {
-			noTouchBackground = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 480.0)];
+			noTouchBackground = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, kScreenHeight)];
 			noTouchBackground.backgroundColor = [UIColor blackColor];
 			noTouchBackground.opaque = NO;
 			noTouchBackground.alpha = 0.0;
@@ -255,7 +262,7 @@
 		// Slide it in for a nice effect
 		[UIView beginAnimations:nil context:NULL];
 		[UIView setAnimationDuration:0.5];
-		bonjourBrowser.frame = CGRectMake(0.0, 200.0, 320.0, 260.0);
+		bonjourBrowser.frame = CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight-kNavigationBarHeight, 320.0, 260.0);
 		// Fade in the no-touch background
 		noTouchBackground.alpha = 0.5;
 		[UIView commitAnimations];
@@ -271,7 +278,7 @@
 	// Slide the picker off the screen
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.5];
-	bonjourBrowser.frame = CGRectMake(0.0, 480.0, 320.0, 260.0);
+	bonjourBrowser.frame = CGRectMake(0.0, kScreenHeight, 320.0, 260.0);
 	// Fade out the no-touch background
 	noTouchBackground.alpha = 0.0;
 	

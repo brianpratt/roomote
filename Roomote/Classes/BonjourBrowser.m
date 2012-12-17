@@ -7,6 +7,7 @@
 //
 
 #import "BonjourBrowser.h"
+#import "constants.h"
 
 @implementation BonjourBrowser
 
@@ -34,8 +35,8 @@
 		
 		
 		// Set up the Picker navigation bar
-		//UINavigationBar *aNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0, 200.0, 320.0, 44.0)];
-		UINavigationBar *aNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 44.0)];
+		//UINavigationBar *aNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight-kNavigationBarHeight, 320.0, kNavigationBarHeight)];
+		UINavigationBar *aNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, kNavigationBarHeight)];
 		aNavigationBar.barStyle = UIBarStyleBlackOpaque;
 		self.pickerNavigationBar = aNavigationBar;
 		[aNavigationBar release];
@@ -47,8 +48,8 @@
 		[buttonItem release];
 		
 		// Set up the ServerPickerView
-		//UIPickerView *aServerPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.0, 244.0, 320.0, 216.0)];
-		UIPickerView *aServerPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.0, 44.0, 320.0, 216.0)];
+		//UIPickerView *aServerPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.0, kScreenHeightNoStatus-kPickerViewHeight, 320.0, kPickerViewHeight)];
+		UIPickerView *aServerPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.0, kNavigationBarHeight, 320.0, kPickerViewHeight)];
 		aServerPickerView.showsSelectionIndicator = YES;
 		aServerPickerView.delegate = serverPickerController;
 		aServerPickerView.dataSource = serverPickerController;

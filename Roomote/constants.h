@@ -7,6 +7,9 @@
  *
  */
 
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
 // Roomba default parameters
 #define DEFAULT_VELOCITY 200
 #define MIN_VELOCITY 0
@@ -41,3 +44,13 @@
 #define kControlTypeButton			0
 #define kControlTypeSwipe			1
 #define kControlTypeAccelerometer	2
+
+
+// Global variables describing screen dimensions
+extern float kScreenHeight;
+extern float kScreenHeightNoStatus;
+extern float kPickerViewHeight;
+extern float kNavigationBarHeight;
+extern float kControlViewHeight;
+
+#endif

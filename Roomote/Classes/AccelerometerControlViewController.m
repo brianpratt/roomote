@@ -85,7 +85,7 @@ unsigned maxVelocity = DEFAULT_VELOCITY;
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-	accelerometerControlView = [[AccelerometerControlView alloc] initWithFrame: CGRectMake(0.0, 0.0, 320.0, 270.0)];
+	accelerometerControlView = [[AccelerometerControlView alloc] initWithFrame: CGRectMake(0.0, 0.0, 320.0, kControlViewHeight)];
 	[accelerometerControlView setDelegate: self];
 	self.view = accelerometerControlView;
 	
